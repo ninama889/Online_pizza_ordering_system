@@ -1,0 +1,46 @@
+﻿.signbg {
+    background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url("https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+sup {
+    color: red;
+}
+
+.signform-container {
+    margin: 150px auto 40px auto;
+    padding: 25px 20px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-box-shadow: -8px 6px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 6px 25px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px 6px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.submitbtn {
+    background-color: #231942;
+    margin: 40px auto 40px auto;
+    border-radius: 10px;
+    -webkit-box-shadow: -8px 6px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 6px 25px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+    width: 360px;
+    height:44px;
+}
+.para {
+    text-align: center;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 500px) {
+    .signform-container {
+        width: 95%;
+        margin: 20vh auto;
+    }
+}

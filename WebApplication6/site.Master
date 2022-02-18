@@ -7,7 +7,7 @@
     <title>Eat And More</title>
     <meta name="keywords" content="curve site, free css templates, slider, CSS, HTML" />
     <meta name="description" content="Curve Site - free css template with total 5 pages" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./wwwroot/css/style.css" rel="stylesheet" type="text/css" />
 
     <link href="css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
 

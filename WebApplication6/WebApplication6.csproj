@@ -69,6 +69,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Signup.aspx" />
+    <Content Include="wwwroot\css\login.css" />
+    <Content Include="wwwroot\images\FoodBanner1.jpg" />
+    <Content Include="wwwroot\images\FoodBanner2.jpg" />
+    <Content Include="wwwroot\images\login-background.jpg" />
+    <Content Include="wwwroot\images\Pizza.png" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.esm.js" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.js" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.min.js" />
+    <Content Include="Login.aspx" />
     <None Include="Connected Services\ServiceReference1\Service.disco" />
     <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
     <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
@@ -80,45 +109,38 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
-    <Content Include="css\jquery.ennui.contentslider.css" />
-    <Content Include="css\templatemo_style.css" />
-    <Content Include="images\data1\images\FoodBanner1.jpg" />
-    <Content Include="images\data1\images\FoodBanner2.jpg" />
-    <Content Include="images\header.png" />
+    <Content Include="wwwroot\css\jquery.ennui.contentslider.css" />
+    <Content Include="wwwroot\images\header.png" />
     <Content Include="Default.aspx" />
-    <Content Include="engine1\jquery.js" />
-    <Content Include="engine1\script.js" />
-    <Content Include="engine1\style.css" />
-    <Content Include="engine1\style.mod.css" />
-    <Content Include="engine1\wowslider.js" />
-    <Content Include="engine1\wowslider.mod.js" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\menu.png" />
-    <Content Include="images\menu_divider.png" />
-    <Content Include="images\body.jpg" />
-    <Content Include="images\footer.png" />
-    <Content Include="images\.png" />
-    <Content Include="images\slider.png" />
-    <Content Include="js\jquery-1.3.1.min.js" />
-    <Content Include="js\jquery.easing.1.3.js" />
-    <Content Include="js\jquery.ennui.contentslider.js" />
-    <Content Include="js\jquery.js" />
-    <Content Include="js\jquery.lightbox-0.5.js" />
-    <Content Include="js\jquery.lightbox-0.5.min.js" />
-    <Content Include="js\jquery.lightbox-0.5.pack.js" />
-    <Content Include="js\jquery.min.js" />
-    <Content Include="js\piroBox.1_2.js" />
-    <Content Include="js\piroBox.1_2_min.js" />
-    <Content Include="Login.aspx" />
+    <Content Include="wwwroot\engine1\jquery.js" />
+    <Content Include="wwwroot\engine1\script.js" />
+    <Content Include="wwwroot\engine1\style.css" />
+    <Content Include="wwwroot\engine1\style.mod.css" />
+    <Content Include="wwwroot\engine1\wowslider.js" />
+    <Content Include="wwwroot\engine1\wowslider.mod.js" />
+    <Content Include="wwwroot\images\logo.png" />
+    <Content Include="wwwroot\images\menu.png" />
+    <Content Include="wwwroot\images\menu_divider.png" />
+    <Content Include="wwwroot\images\body.jpg" />
+    <Content Include="wwwroot\images\footer.png" />
+    <Content Include="wwwroot\images\.png" />
+    <Content Include="wwwroot\images\slider.png" />
+    <Content Include="wwwroot\js\jquery-1.3.1.min.js" />
+    <Content Include="wwwroot\js\jquery.easing.1.3.js" />
+    <Content Include="wwwroot\js\jquery.ennui.contentslider.js" />
+    <Content Include="wwwroot\js\jquery.js" />
+    <Content Include="wwwroot\js\jquery.lightbox-0.5.js" />
+    <Content Include="wwwroot\js\jquery.lightbox-0.5.min.js" />
+    <Content Include="wwwroot\js\jquery.lightbox-0.5.pack.js" />
+    <Content Include="wwwroot\js\jquery.min.js" />
+    <Content Include="wwwroot\js\piroBox.1_2.js" />
+    <Content Include="wwwroot\js\piroBox.1_2_min.js" />
     <Content Include="Menu.aspx" />
     <Content Include="NewFolder1\css\jquery.dataTables.min.css" />
     <Content Include="NewFolder1\js\jquery.dataTables.min.js" />
-    <Content Include="Register.aspx" />
     <Content Include="Script.js" />
     <Content Include="Signin.aspx" />
-    <Content Include="StyleSheet1.css" />
-    <Content Include="StyleSheet2.css" />
-    <Content Include="style.css" />
+    <Content Include="wwwroot\css\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,13 +156,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -149,13 +164,6 @@
       <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Signin.aspx.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -163,12 +171,26 @@
     <Compile Include="Signin.aspx.designer.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="site.Master.cs">
       <DependentUpon>site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="site.Master.designer.cs">
       <DependentUpon>site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +204,114 @@
     <None Include="Connected Services\ServiceReference1\Service2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="libman.json" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_accordion.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_alert.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_badge.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_breadcrumb.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_button-group.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_buttons.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_card.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_carousel.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_close.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_containers.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_dropdown.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_forms.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_functions.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_grid.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_helpers.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_images.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_list-group.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_mixins.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_modal.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_nav.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_navbar.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_offcanvas.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_pagination.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_placeholders.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_popover.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_progress.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_reboot.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_root.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_spinners.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_tables.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_toasts.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_tooltip.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_transitions.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_type.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_utilities.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\_variables.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\bootstrap-grid.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\bootstrap-reboot.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\bootstrap-utilities.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\bootstrap.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_floating-labels.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_form-check.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_form-control.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_form-range.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_form-select.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_form-text.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_input-group.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_labels.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\forms\_validation.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_clearfix.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_colored-links.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_position.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_ratio.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_stacks.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_stretched-link.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_text-truncation.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_visually-hidden.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\helpers\_vr.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_alert.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_backdrop.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_border-radius.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_box-shadow.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_breakpoints.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_buttons.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_caret.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_clearfix.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_color-scheme.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_container.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_deprecate.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_forms.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_gradients.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_grid.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_image.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_list-group.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_lists.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_pagination.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_reset-text.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_resize.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_table-variants.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_text-truncate.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_transition.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_utilities.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_visually-hidden.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\utilities\_api.scss" />
+    <Content Include="wwwroot\lib\twitter-bootstrap\scss\vendor\_rfs.scss" />
     <None Include="packages.config" />
     <Content Include="site.Master" />
     <None Include="Web.Debug.config">
