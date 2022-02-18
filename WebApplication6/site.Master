@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="WebApplication6.site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Eat And More</title>
+    <meta name="keywords" content="curve site, free css templates, slider, CSS, HTML" />
+    <meta name="description" content="Curve Site - free css template with total 5 pages" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div id="wrapper">
+	
+    <div id="header">
+    
+        <div id="site_title">
+            <h1>
+            <strong>Eat</strong> More
+            <span>Eat your favorite food at home</span>
+            </h1>
+        </div>
+        
+        <div class="logo">
+            	<a href="#">Always  <br /><span>Available</span></a>
+    	</div>
+        
+    </div><!-- end of header -->
+            
+    <div id="menu">
+    
+        <ul>
+            <li><a href="#" class="current first">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="/login.aspx">SignIn</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul> 
+    
+    </div> <!-- end of _menu -->
+    
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <div id="footer">
+
+        Copyright © 2048 <a href="#">Your Company Name</a> | 
+        <a href="#" target="_parent">WizMax Security</a> WizMax Security <a href="#" target="_parent">WizMax Security</a>
+    
+    </div> <!-- end of _footer -->
+            </div> <!-- end of wrapper -->
+
+    </form>
+</body>
+</html>

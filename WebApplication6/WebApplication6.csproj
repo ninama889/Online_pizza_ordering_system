@@ -80,7 +80,35 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-3.5.1.slim.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
-    <Content Include="img\OIP.jpg" />
+    <Content Include="css\jquery.ennui.contentslider.css" />
+    <Content Include="css\templatemo_style.css" />
+    <Content Include="images\data1\images\FoodBanner1.jpg" />
+    <Content Include="images\data1\images\FoodBanner2.jpg" />
+    <Content Include="images\header.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\menu_divider.png" />
+    <Content Include="images\body.jpg" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\.png" />
+    <Content Include="images\slider.png" />
+    <Content Include="js\jquery-1.3.1.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.ennui.contentslider.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.lightbox-0.5.js" />
+    <Content Include="js\jquery.lightbox-0.5.min.js" />
+    <Content Include="js\jquery.lightbox-0.5.pack.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\piroBox.1_2.js" />
+    <Content Include="js\piroBox.1_2_min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="NewFolder1\css\jquery.dataTables.min.css" />
@@ -90,14 +118,21 @@
     <Content Include="Signin.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -128,12 +163,12 @@
     <Compile Include="Signin.aspx.designer.cs">
       <DependentUpon>Signin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="site.Master.cs">
+      <DependentUpon>site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="site.Master.designer.cs">
+      <DependentUpon>site.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +183,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+    <Content Include="site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -161,6 +197,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
