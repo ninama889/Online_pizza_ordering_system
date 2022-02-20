@@ -1,62 +1,63 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="WebApplication6.site" %>
-
 <!DOCTYPE html>
 
 <html>
-<head runat="server">
-    <title>Eat And More</title>
-    <meta name="keywords" content="curve site, free css templates, slider, CSS, HTML" />
-    <meta name="description" content="Curve Site - free css template with total 5 pages" />
-    <link href="./wwwroot/css/style.css" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive food website design tutorial </title>
 
-    <link href="css/jquery.ennui.contentslider.css" rel="stylesheet" type="text/css" media="screen,projection" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="WWWroot/css/StyleSheet1.css">
+
+   
+
+ <asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
 </head>
 <body>
+     <header>
 
-    <form id="form1" runat="server">
-        <div id="wrapper">
-	
-    <div id="header">
-    
-        <div id="site_title">
-            <h1>
-            <strong>Eat</strong> More
-            <span>Eat your favorite food at home</span>
-            </h1>
-        </div>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>PIZZA </a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
         
-        <div class="logo">
-            	<a href="#">Always  <br /><span>Available</span></a>
-    	</div>
+        <a href="#home">home</a>
+        <a href="#login.aspx">SignUp</a>
+        <a href="#speciality">speciality</a>
+        <a href="#popular">popular</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+         <a href="#order">order</a>
         
-    </div><!-- end of header -->
-            
-    <div id="menu">
+    </nav>
+
+   </header>
     
-        <ul>
-            <li><a href="#" class="current first">Home</a></li>
-            <li><a href="#">Search</a></li>
-            <li><a href="/login.aspx">SignIn</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul> 
-    
-    </div> <!-- end of _menu -->
     
             
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        <div id="footer">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+        <section class="footer">
 
-        Copyright © 2048 <a href="#">Your Company Name</a> | 
-        <a href="#" target="_parent">WizMax Security</a> WizMax Security <a href="#" target="_parent">WizMax Security</a>
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> ruchita & hemangini </span> | all rights reserved! </h1>
+
+    </section>
+   
+
     
-    </div> <!-- end of _footer -->
-            </div> <!-- end of wrapper -->
-
-    </form>
 </body>
 </html>
