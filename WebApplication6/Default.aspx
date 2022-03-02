@@ -49,7 +49,7 @@
     </div>
 
     <div class="image">
-        <img src="images/home-img.png" alt="">
+        <img src="images/123.png" alt="">
     </div>
 
 </section>
