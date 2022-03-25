@@ -28,7 +28,8 @@
     <nav class="navbar">
         
         <a href="#home">home</a>
-        <a href="#login.aspx">SignUp</a>
+        <a href="login.aspx">SignUp</a>
+        <a href="#menu.aspx">menu</a>
         <a href="#speciality">speciality</a>
         <a href="#popular">popular</a>
         <a href="#gallery">gallery</a>

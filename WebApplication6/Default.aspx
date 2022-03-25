@@ -15,27 +15,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <!-- header section starts  -->
-
-<header>
-
-    <a href="#" class="logo"><i class="fas fa-utensils"></i>PIZZA </a>
-
-    <div id="menu-bar" class="fas fa-bars"></div>
-
-    <nav class="navbar">
-
-        <a href="#home">home</a>
-         <a href="/Login.aspx">SignUp</a>
-        <a href="#speciality">speciality</a>
-        <a href="#popular">popular</a>
-        <a href="#gallery">gallery</a>
-        <a href="#review">review</a>
-        <a href="#order">order</a>
-    </nav>
-
-</header>
-
+    
 <!-- header section ends -->
 
 <!-- home section starts  -->
@@ -69,7 +49,7 @@
             <div class="content">
                 <img src="images/s-1.png" alt="">
                 <h3>tasty burger</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <p>Tasty, delicious, and has me craving more on the first bite.” to “Juicy, mouthwatering, tasty, and everything you’d ever want to savor. choice of yours</p>
             </div>
         </div>
         <div class="box">
@@ -77,7 +57,7 @@
             <div class="content">
                 <img src="images/s-2.png" alt="">
                 <h3>tasty pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <p>tastes like bread tomato and cheese, chewy, moist, slightly acidic, and sharp. Then once you apply toppings, that changes it. Ham and pineapple, adds salty, sweet and juicy. Pepperoni adds a meatiness and spice.</p>
             </div>
         </div>
         <div class="box">
@@ -85,7 +65,7 @@
             <div class="content">
                 <img src="images/s-3.png" alt="">
                 <h3>cold ice-cream</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <p> rich, sweet, creamy frozen food made from variously flavored cream and milk products churned or stirred to a smooth consistency during the freezing process and often containing gelatin, eggs, fruits, nuts, etc.</p>
             </div>
         </div>
         <div class="box">
@@ -93,7 +73,7 @@
             <div class="content">
                 <img src="images/s-4.png" alt="">
                 <h3>cold drinks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <p>From punches to  to , served everywhere from Maui to Mexico, these 10 beverages are excellent ways to kick off that (much-needed) getaway. and special kind of cocktails available at your menu.</p>
             </div>
         </div>
        
@@ -325,7 +305,7 @@
 
         <div class="box">
             <img src="images/pic1.png" alt="">
-            <h3>john deo</h3>
+            <h3>Hemangini ninama</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -333,11 +313,11 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+            <p>Roll no : CE093</p>
         </div>
         <div class="box">
-            <img src="images/pic2.png" alt="">
-            <h3>john deo</h3>
+            <img src="images/pic1.png" alt="">
+            <h3>Ruchita oza</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -345,21 +325,8 @@
                 <i class="fas fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+            <p>Roll no : CE094</p>
         </div>
-        <div class="box">
-            <img src="images/pic3.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
-        </div>
-
     </div>
 
 </section>
