@@ -24,7 +24,7 @@
                 name="email"
                 placeholder="email"
                 autoComplete="off"
-                required="true"></asp:TextBox>
+                required="true" OnTextChanged="emailText_TextChanged"></asp:TextBox>
               
             </div>
             <div class="form-group">
@@ -39,7 +39,8 @@
                 required="true"
               />
             </div>
-            <asp:Button ID="Button1" runat="server" Text="Submit"  CssClass="submitbtn"/>
+            <asp:Button ID="Button1" runat="server" Text="Submit"  CssClass="submitbtn" OnClick="Button1_Click"/>
+              <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             <p class="para" id="signup-link">
               Don't have an account?
              <a href="Signup.aspx">Signup</a>
