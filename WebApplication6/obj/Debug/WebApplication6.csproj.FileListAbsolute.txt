@@ -61,7 +61,6 @@ D:\_study\6th\soc\Project - FoodVilla\WebApplication6\bin\WebApplication6.dll.co
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\bin\WebApplication6.dll
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\_study\6th\soc\Project - FoodVilla\WebApplication6\obj\Debug\WebApplication6.csproj.AssemblyReference.cache
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\obj\Debug\WebApplication6.csproj.CoreCompileInputs.cache
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\obj\Debug\WebApplication6.csproj.CopyComplete
 D:\_study\6th\soc\Project - FoodVilla\WebApplication6\obj\Debug\WebApplication6.dll
@@ -175,3 +174,4 @@ C:\Users\ninam\Source\Repos\ninama889\Online_pizza_ordering_system\WebApplicatio
 C:\Users\ninam\Source\Repos\ninama889\Online_pizza_ordering_system\WebApplication6\obj\Debug\WebApplication6.csproj.CopyComplete
 C:\Users\ninam\Source\Repos\ninama889\Online_pizza_ordering_system\WebApplication6\obj\Debug\WebApplication6.dll
 C:\Users\ninam\Source\Repos\ninama889\Online_pizza_ordering_system\WebApplication6\obj\Debug\WebApplication6.pdb
+D:\_study\6th\soc\Project - FoodVilla\WebApplication6\obj\Debug\WebApplication6.csproj.AssemblyReference.cache

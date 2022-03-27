@@ -1,0 +1,7 @@
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\bin\Debug\AdminControl.dll.config
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\bin\Debug\AdminControl.dll
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\bin\Debug\AdminControl.pdb
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\obj\Debug\AdminControl.csproj.CoreCompileInputs.cache
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\obj\Debug\AdminControl.dll
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\obj\Debug\AdminControl.pdb
+D:\_study\6th\soc\Project - FoodVilla\AdminControl\obj\Debug\AdminControl.csproj.AssemblyReference.cache
