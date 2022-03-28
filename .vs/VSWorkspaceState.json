@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\packages",
     "\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1",
-    "\\WebApplication6",
     "\\WebApplication6\\Connected Services"
   ],
   "PreviewInSolutionExplorer": false
