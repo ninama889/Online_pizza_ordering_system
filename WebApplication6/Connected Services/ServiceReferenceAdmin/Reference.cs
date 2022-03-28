@@ -126,6 +126,12 @@ namespace WebApplication6.ServiceReferenceAdmin {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceAdmin.IAdminControl")]
     public interface IAdminControl {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/SelectCategories", ReplyAction="http://tempuri.org/IAdminControl/SelectCategoriesResponse")]
+        System.Data.DataSet SelectCategories();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/SelectCategories", ReplyAction="http://tempuri.org/IAdminControl/SelectCategoriesResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> SelectCategoriesAsync();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/AddCategory", ReplyAction="http://tempuri.org/IAdminControl/AddCategoryResponse")]
         bool AddCategory(WebApplication6.ServiceReferenceAdmin.Category ct);
         
@@ -137,6 +143,18 @@ namespace WebApplication6.ServiceReferenceAdmin {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/UpdateCategory", ReplyAction="http://tempuri.org/IAdminControl/UpdateCategoryResponse")]
         System.Threading.Tasks.Task<bool> UpdateCategoryAsync(WebApplication6.ServiceReferenceAdmin.Category ct);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/DeleteCategory", ReplyAction="http://tempuri.org/IAdminControl/DeleteCategoryResponse")]
+        bool DeleteCategory(int CategoryId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/DeleteCategory", ReplyAction="http://tempuri.org/IAdminControl/DeleteCategoryResponse")]
+        System.Threading.Tasks.Task<bool> DeleteCategoryAsync(int CategoryId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/SelectCategoryById", ReplyAction="http://tempuri.org/IAdminControl/SelectCategoryByIdResponse")]
+        System.Data.DataSet SelectCategoryById(int CategoryId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdminControl/SelectCategoryById", ReplyAction="http://tempuri.org/IAdminControl/SelectCategoryByIdResponse")]
+        System.Threading.Tasks.Task<System.Data.DataSet> SelectCategoryByIdAsync(int CategoryId);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -166,6 +184,14 @@ namespace WebApplication6.ServiceReferenceAdmin {
                 base(binding, remoteAddress) {
         }
         
+        public System.Data.DataSet SelectCategories() {
+            return base.Channel.SelectCategories();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> SelectCategoriesAsync() {
+            return base.Channel.SelectCategoriesAsync();
+        }
+        
         public bool AddCategory(WebApplication6.ServiceReferenceAdmin.Category ct) {
             return base.Channel.AddCategory(ct);
         }
@@ -180,6 +206,22 @@ namespace WebApplication6.ServiceReferenceAdmin {
         
         public System.Threading.Tasks.Task<bool> UpdateCategoryAsync(WebApplication6.ServiceReferenceAdmin.Category ct) {
             return base.Channel.UpdateCategoryAsync(ct);
+        }
+        
+        public bool DeleteCategory(int CategoryId) {
+            return base.Channel.DeleteCategory(CategoryId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> DeleteCategoryAsync(int CategoryId) {
+            return base.Channel.DeleteCategoryAsync(CategoryId);
+        }
+        
+        public System.Data.DataSet SelectCategoryById(int CategoryId) {
+            return base.Channel.SelectCategoryById(CategoryId);
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataSet> SelectCategoryByIdAsync(int CategoryId) {
+            return base.Channel.SelectCategoryByIdAsync(CategoryId);
         }
     }
 }

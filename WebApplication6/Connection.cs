@@ -14,7 +14,7 @@ namespace WebApplication6
         public static bool IsValidExtention (string filename)
         {
             bool isValid = false;
-            string[] fileExtention = { "./jpg", "./jpeg", "./png" };
+            string[] fileExtention = { ".jpg", ".jpeg", ".png" };
             for (int i = 0; i <= fileExtention.Length -1 ; i++)
             {
                 if (filename.Contains(fileExtention[i]))
@@ -25,5 +25,18 @@ namespace WebApplication6
             }
             return isValid;
         }
+        public static string GetImageUrl(Object url)
+        {
+            string url1 = "";
+            if (string.IsNullOrEmpty(url.ToString())|| url == DBNull.Value)
+            {
+                url1 = "../Images/No_Image.png";
+            }
+            else
+            {
+                url1 = string.Format("../{0}", url);
+            }
+            return url1;
+        }  
     }
 }
