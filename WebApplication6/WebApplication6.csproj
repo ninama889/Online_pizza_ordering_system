@@ -164,6 +164,13 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Connected Services\ServiceReference2\Service.disco" />
+    <None Include="Connected Services\ServiceReference2\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReference2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="images\123.png" />
     <Content Include="images\Detroit.jpg" />
     <Content Include="images\g-1.jpg" />
@@ -322,6 +329,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
+    <Compile Include="Connected Services\ServiceReference2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -502,6 +514,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\ServiceReferenceAdmin\AdminControlService.wsdl" />
+    <None Include="Connected Services\ServiceReference2\Service.wsdl" />
+    <None Include="Connected Services\ServiceReference2\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference2\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference2\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <Content Include="site.Master" />
     <None Include="Web.Debug.config">
@@ -517,6 +539,10 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceAdmin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\menu\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\css\menu\" />
