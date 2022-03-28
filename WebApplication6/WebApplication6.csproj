@@ -157,7 +157,14 @@
     <Content Include="Admin\assets\pages\widget\amchart\worldLow.min.js" />
     <Content Include="Admin\Category.aspx" />
     <Content Include="Admin\DashBoard.aspx" />
+    <Content Include="Admin\datatables\fonts\ionicons.ttf" />
+    <Content Include="Admin\datatables\fonts\ionicons.woff" />
+    <Content Include="Admin\datatables\fonts\themify.ttf" />
+    <Content Include="Admin\datatables\fonts\themify.woff" />
     <None Include="Connected Services\ServiceReferenceAdmin\AdminControl.disco" />
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControl3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\ServiceReferenceAdmin\configuration91.svcinfo" />
     <None Include="Connected Services\ServiceReferenceAdmin\configuration.svcinfo" />
     <None Include="Connected Services\ServiceReferenceAdmin\Reference.svcmap">
@@ -171,6 +178,29 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Admin\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Admin\datatables\css\icon-font.min.css" />
+    <Content Include="Admin\datatables\css\jquery.dataTables.min.css" />
+    <Content Include="Admin\datatables\css\responsive.bootstrap4.min.css" />
+    <Content Include="Admin\datatables\css\responsive.dataTables.min.css" />
+    <Content Include="Admin\datatables\images\sort_asc.png" />
+    <Content Include="Admin\datatables\images\sort_asc_disabled.png" />
+    <Content Include="Admin\datatables\images\sort_both.png" />
+    <Content Include="Admin\datatables\images\sort_desc.png" />
+    <Content Include="Admin\datatables\images\sort_desc_disabled.png" />
+    <Content Include="Admin\datatables\js\buttons.bootstrap4.min.js" />
+    <Content Include="Admin\datatables\js\buttons.flash.min.js" />
+    <Content Include="Admin\datatables\js\buttons.html5.min.js" />
+    <Content Include="Admin\datatables\js\buttons.print.min.js" />
+    <Content Include="Admin\datatables\js\datatable-setting.js" />
+    <Content Include="Admin\datatables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Admin\datatables\js\dataTables.buttons.min.js" />
+    <Content Include="Admin\datatables\js\dataTables.responsive.min.js" />
+    <Content Include="Admin\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="Admin\datatables\js\jszip.min.js" />
+    <Content Include="Admin\datatables\js\pdfmake.min.js" />
+    <Content Include="Admin\datatables\js\responsive.bootstrap4.min.js" />
+    <Content Include="Admin\datatables\js\vfs_fonts.js" />
     <Content Include="images\123.png" />
     <Content Include="images\Detroit.jpg" />
     <Content Include="images\g-1.jpg" />
@@ -526,6 +556,7 @@
     </None>
     <None Include="packages.config" />
     <Content Include="site.Master" />
+    <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -541,7 +572,6 @@
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceAdmin\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\css\menu\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <ItemGroup>

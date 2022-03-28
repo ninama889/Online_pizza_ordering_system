@@ -22,11 +22,12 @@
     <MetadataSource Address="http://localhost:8000/AdminControl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="AdminControl.xsd" MetadataType="Schema" ID="a6d60359-72e4-4f3e-b088-6ec6fbb3e361" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd1" />
-    <MetadataFile FileName="AdminControl1.xsd" MetadataType="Schema" ID="823b86e6-5849-4912-8826-503b3e7e1f67" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd0" />
     <MetadataFile FileName="AdminControl2.xsd" MetadataType="Schema" ID="276da683-dd67-4310-9d3d-a3be7b616dd1" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd2" />
     <MetadataFile FileName="AdminControlService.wsdl" MetadataType="Wsdl" ID="1033c109-af31-40a0-b82c-1d249e5a16bb" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?wsdl" />
+    <MetadataFile FileName="AdminControl3.xsd" MetadataType="Schema" ID="9bd2f532-07f4-4c2d-8649-68939871192c" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd3" />
     <MetadataFile FileName="AdminControl.disco" MetadataType="Disco" ID="9822ae7b-0375-498e-841d-3c0797e4fb29" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?disco" />
+    <MetadataFile FileName="AdminControl1.xsd" MetadataType="Schema" ID="823b86e6-5849-4912-8826-503b3e7e1f67" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd0" />
+    <MetadataFile FileName="AdminControl.xsd" MetadataType="Schema" ID="a6d60359-72e4-4f3e-b088-6ec6fbb3e361" SourceId="1" SourceUrl="http://localhost:8000/AdminControl?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
