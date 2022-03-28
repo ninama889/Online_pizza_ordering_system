@@ -69,6 +69,101 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\assets\css\animate.css\css\animate.css" />
+    <Content Include="Admin\assets\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\assets\css\jquery.mCustomScrollbar.css" />
+    <Content Include="Admin\assets\css\morris.js\css\morris.css" />
+    <Content Include="Admin\assets\css\style.css" />
+    <Content Include="Admin\assets\icon\icofont\css\icofont.css" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.svg" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="Admin\assets\icon\themify-icons\themify-icons.css" />
+    <Content Include="Admin\assets\images\auth\logo-dark.png" />
+    <Content Include="Admin\assets\images\auth\Logo-small-bottom.png" />
+    <Content Include="Admin\assets\images\auth\logo.png" />
+    <Content Include="Admin\assets\images\avatar-1.jpg" />
+    <Content Include="Admin\assets\images\avatar-2.jpg" />
+    <Content Include="Admin\assets\images\avatar-3.jpg" />
+    <Content Include="Admin\assets\images\avatar-4.jpg" />
+    <Content Include="Admin\assets\images\bg.jpg" />
+    <Content Include="Admin\assets\images\favicon.ico" />
+    <Content Include="Admin\assets\images\flags\ENGLISH.jpg" />
+    <Content Include="Admin\assets\images\flags\FRANCE.jpg" />
+    <Content Include="Admin\assets\images\flags\PORTO.jpg" />
+    <Content Include="Admin\assets\images\flags\SPAIN.jpg" />
+    <Content Include="Admin\assets\images\logo.png" />
+    <Content Include="Admin\assets\images\mega-menu\01.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\02.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\03.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\04.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\05.jpg" />
+    <Content Include="Admin\assets\images\mega-menu\06.jpg" />
+    <Content Include="Admin\assets\images\pattern2.jpg" />
+    <Content Include="Admin\assets\images\user.png" />
+    <Content Include="Admin\assets\js\bootstrap-growl.min.js" />
+    <Content Include="Admin\assets\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Admin\assets\js\classie.js" />
+    <Content Include="Admin\assets\js\classie\classie.js" />
+    <Content Include="Admin\assets\js\common-pages.js" />
+    <Content Include="Admin\assets\js\demo-12.js" />
+    <Content Include="Admin\assets\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="Admin\assets\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Admin\assets\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Admin\assets\js\jquery.mousewheel.min.js" />
+    <Content Include="Admin\assets\js\jquery\jquery.min.js" />
+    <Content Include="Admin\assets\js\modernizr\css-scrollbars.js" />
+    <Content Include="Admin\assets\js\modernizr\modernizr.js" />
+    <Content Include="Admin\assets\js\morris.js\morris.js" />
+    <Content Include="Admin\assets\js\pcoded.min.js" />
+    <Content Include="Admin\assets\js\popper.js\popper.min.js" />
+    <Content Include="Admin\assets\js\raphael\raphael.min.js" />
+    <Content Include="Admin\assets\js\script.js" />
+    <Content Include="Admin\assets\js\script.min.js" />
+    <Content Include="Admin\assets\js\SmoothScroll.js" />
+    <Content Include="Admin\assets\pages\accordion\accordion.js" />
+    <Content Include="Admin\assets\pages\accordion\accordion.min.js" />
+    <Content Include="Admin\assets\pages\chart\morris\morris-custom-chart.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\css\export.css" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\light.js" />
+    <Content Include="Admin\assets\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="Admin\assets\pages\dashboard\custom-dashboard.js" />
+    <Content Include="Admin\assets\pages\google-maps\gmaps.min.js" />
+    <Content Include="Admin\assets\pages\google-maps\jquery.gmaps.js" />
+    <Content Include="Admin\assets\pages\icon-modal.js" />
+    <Content Include="Admin\assets\pages\notification\notification.css" />
+    <Content Include="Admin\assets\pages\notification\notification.js" />
+    <Content Include="Admin\assets\pages\todo\todo.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\amcharts.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\ammap.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\ammap.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\continentsLow.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\continentsLow.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\gauge.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\gauge.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\light.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\light.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\pie.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\pie.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\serial.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\serial.min.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\worldLow.js" />
+    <Content Include="Admin\assets\pages\widget\amchart\worldLow.min.js" />
+    <Content Include="Admin\Category.aspx" />
+    <Content Include="Admin\DashBoard.aspx" />
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControl.disco" />
+    <None Include="Connected Services\ServiceReferenceAdmin\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceAdmin\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceAdmin\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <None Include="Connected Services\ServiceReference2\Service.disco" />
     <None Include="Connected Services\ServiceReference2\configuration91.svcinfo" />
     <None Include="Connected Services\ServiceReference2\configuration.svcinfo" />
@@ -149,6 +244,13 @@
     <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.js" />
     <Content Include="wwwroot\lib\twitter-bootstrap\js\bootstrap.min.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.eot" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="Admin\assets\icon\icofont\fonts\icofont.woff" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="Admin\assets\icon\themify-icons\fonts\themify.woff" />
     <None Include="Connected Services\ServiceReference1\Service.disco" />
     <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
     <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
@@ -195,11 +297,38 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\ServiceReferenceAdmin\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
     <Compile Include="Connected Services\ServiceReference2\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -375,6 +504,16 @@
     <Content Include="wwwroot\lib\twitter-bootstrap\scss\mixins\_visually-hidden.scss" />
     <Content Include="wwwroot\lib\twitter-bootstrap\scss\utilities\_api.scss" />
     <Content Include="wwwroot\lib\twitter-bootstrap\scss\vendor\_rfs.scss" />
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControl.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControl1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControl2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceAdmin\AdminControlService.wsdl" />
     <None Include="Connected Services\ServiceReference2\Service.wsdl" />
     <None Include="Connected Services\ServiceReference2\Service.xsd">
       <SubType>Designer</SubType>
@@ -399,6 +538,10 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceAdmin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\menu\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <ItemGroup>

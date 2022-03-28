@@ -1,0 +1,14 @@
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.csproj.AssemblyReference.cache
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.Properties.Resources.resources
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.csproj.GenerateResource.cache
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.csproj.CoreCompileInputs.cache
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControlHost.exe.config
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControlHost.exe
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControlHost.pdb
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControl.dll
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControl.pdb
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\bin\Debug\AdminControl.dll.config
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.Form1.resources
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.csproj.CopyComplete
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.exe
+D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.pdb
