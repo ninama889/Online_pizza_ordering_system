@@ -14,7 +14,7 @@ namespace WebApplication6
         public static bool IsValidExtention (string filename)
         {
             bool isValid = false;
-            string[] fileExtention = { ".jpg", ".jpeg", ".png" };
+            string[] fileExtention = { ".jpg", ".jpeg", ".png" , ".webp"};
             for (int i = 0; i <= fileExtention.Length -1 ; i++)
             {
                 if (filename.Contains(fileExtention[i]))

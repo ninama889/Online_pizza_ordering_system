@@ -22,5 +22,18 @@ namespace AdminControl
         bool DeleteCategory(int CategoryId);
         [OperationContract]
         DataSet SelectCategoryById(int CategoryId);
+        //for Products
+        [OperationContract]
+        DataSet SelectProducts();
+        [OperationContract]
+        bool AddProduct(Product pd);
+        [OperationContract]
+        bool UpdateProduct(Product pd);
+        [OperationContract]
+        bool DeleteProduct(int ProductId);
+        [OperationContract]
+        DataSet SelectProductById(int ProductId);
+        [OperationContract]
+        DataSet SelectProductByCategoryId(int CategoryId);
     }
 }

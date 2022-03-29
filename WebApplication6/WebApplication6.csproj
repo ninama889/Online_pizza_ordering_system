@@ -201,6 +201,7 @@
     <Content Include="Admin\datatables\js\pdfmake.min.js" />
     <Content Include="Admin\datatables\js\responsive.bootstrap4.min.js" />
     <Content Include="Admin\datatables\js\vfs_fonts.js" />
+    <Content Include="Admin\Product.aspx" />
     <Content Include="images\123.png" />
     <Content Include="images\Detroit.jpg" />
     <Content Include="images\g-1.jpg" />
@@ -347,6 +348,13 @@
     </Compile>
     <Compile Include="Admin\DashBoard.aspx.designer.cs">
       <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
