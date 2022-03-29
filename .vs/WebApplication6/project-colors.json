@@ -20,7 +20,12 @@
       "ProjectGuid": "2f240bff-b710-429f-9883-bdd366635c35",
       "DisplayName": "AdminControl",
       "ColorIndex": 2
+    },
+    "58278eae-61c6-4d5e-9845-e030f09190e8": {
+      "ProjectGuid": "58278eae-61c6-4d5e-9845-e030f09190e8",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
