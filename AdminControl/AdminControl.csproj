@@ -47,6 +47,7 @@
     <Compile Include="AdminControlService.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="IAdminControl.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

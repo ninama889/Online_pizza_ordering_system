@@ -13,7 +13,8 @@ namespace WebApplication6.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) {
+            if (!IsPostBack)
+            {
                 Session["breadCrum"] = "Category";
             }
             lblMsg.Visible = false;
@@ -45,7 +46,7 @@ namespace WebApplication6.Admin
                 else
                 {
                     lblMsg.Visible = true;
-                    lblMsg.Text = fileExtension+ "Please select .jpg , .jpeg or .png image";
+                    lblMsg.Text = fileExtension + "Please select .jpg , .jpeg or .png image";
                     lblMsg.CssClass = "alert alert-danger";
                     isValidToExecute = false;
                 }
@@ -101,6 +102,7 @@ namespace WebApplication6.Admin
             cbIsActive.Checked = false;
             hdnId.Value = "0";
             btnAddOrUpdate.Text = "Add";
+            imgCategory.ImageUrl = string.Empty;
         }
 
         protected void BtnClear_click(object sender, EventArgs e) => Clear();
@@ -111,9 +113,7 @@ namespace WebApplication6.Admin
             if (e.CommandName == "edit")
             {
                 ServiceReferenceAdmin.AdminControlClient ct = new ServiceReferenceAdmin.AdminControlClient("WSHttpBinding_IAdminControl");
-                NotiCategory.Visible = true;
                 int id = Convert.ToInt32(e.CommandArgument);
-                NotiCategory.Text = id.ToString();
                 DataSet ds = ct.SelectCategoryById(id);
                 txtName.Text = ds.Tables[0].Rows[0]["Name"].ToString();
                 cbIsActive.Checked = Convert.ToBoolean(ds.Tables[0].Rows[0]["IsActive"]);
@@ -125,7 +125,7 @@ namespace WebApplication6.Admin
                 LinkButton btn = e.Item.FindControl("lnkEdit") as LinkButton;
                 btn.CssClass = "badge badge-warning";
             }
-            else if(e.CommandName == "delete")
+            else if (e.CommandName == "delete")
             {
                 ServiceReferenceAdmin.AdminControlClient ct = new ServiceReferenceAdmin.AdminControlClient("WSHttpBinding_IAdminControl");
                 if (ct.DeleteCategory(Convert.ToInt32(e.CommandArgument)))
@@ -147,7 +147,20 @@ namespace WebApplication6.Admin
 
         protected void rCategory_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
-            
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                Label lbl = e.Item.FindControl("lblIsActive") as Label;
+                if (lbl.Text == "True")
+                {
+                    lbl.Text = "Active";
+                    lbl.CssClass = "badge badge-success";
+                }
+                else
+                {
+                    lbl.Text = "In-Active";
+                    lbl.CssClass = "badge badge-danger";
+                }
+            }
         }
     }
 }
