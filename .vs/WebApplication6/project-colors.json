@@ -15,7 +15,12 @@
       "ProjectGuid": "54480761-d347-493c-a91c-35a1a4bb05ba",
       "DisplayName": "LoginService",
       "ColorIndex": 1
+    },
+    "2f240bff-b710-429f-9883-bdd366635c35": {
+      "ProjectGuid": "2f240bff-b710-429f-9883-bdd366635c35",
+      "DisplayName": "AdminControl",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
