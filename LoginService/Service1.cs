@@ -14,9 +14,9 @@ namespace LoginService
         public string Insert(InsertUser user)
         {
             string msg;
-            SqlConnection con = new SqlConnection("Data Source=MSSQLLocalDB;Initial Catalog=socP;Persist Security Info=True;Pooling=False");
+            SqlConnection con = new SqlConnection("Data Source=MSSQLLocalDB;Initial Catalog=FoodieDB;Persist Security Info=True;Pooling=False");
             con.Open();
-            SqlCommand cmd = new SqlCommand("Insert into Table1(Email,Pass) values(@Email,@Pass)", con);
+            SqlCommand cmd = new SqlCommand("Insert into Users(Email,Pass) values(@Email,@Pass)", con);
             cmd.Parameters.AddWithValue("@Email", user.Email);
             cmd.Parameters.AddWithValue("@Pass", user.Pass);
 
