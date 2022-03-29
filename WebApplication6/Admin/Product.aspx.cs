@@ -124,9 +124,6 @@ namespace WebApplication6.Admin
 
         protected void rProduct_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            lblMsg.Visible = true;
-            lblMsg.Text = "Clicked on button";
-            lblnoti.Text = "Clicked on btn" + e.CommandName;
             if (e.CommandName == "edit")
             {
                 ServiceReferenceAdmin.AdminControlClient pd = new ServiceReferenceAdmin.AdminControlClient("WSHttpBinding_IAdminControl");
