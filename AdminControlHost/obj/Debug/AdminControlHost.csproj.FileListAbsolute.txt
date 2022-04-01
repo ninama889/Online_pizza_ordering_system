@@ -12,3 +12,18 @@ D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHos
 D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.csproj.CopyComplete
 D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.exe
 D:\_study\6th\soc\Project - FoodVilla\AdminControlHost\obj\Debug\AdminControlHost.pdb
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.csproj.AssemblyReference.cache
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.Form1.resources
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.Properties.Resources.resources
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.csproj.GenerateResource.cache
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.csproj.CoreCompileInputs.cache
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.exe
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.pdb
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControlHost.exe.config
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControlHost.exe
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControlHost.pdb
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControl.dll
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControl.pdb
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\bin\Debug\AdminControl.dll.config
+C:\Users\ninam\source\repos\ninama889\Online_pizza_ordering_system\AdminControlHost\obj\Debug\AdminControlHost.csproj.CopyComplete

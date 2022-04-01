@@ -606,6 +606,7 @@
     <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\NewFolder1\" />
     <Folder Include="wwwroot\css\menu\" />
   </ItemGroup>
   <PropertyGroup>
