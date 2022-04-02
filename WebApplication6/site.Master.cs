@@ -42,7 +42,7 @@ namespace WebApplication6
 
                     LinkButton2.Visible = true;     //logout link button
                     LinkButton3.Visible = true;     //hello user link button
-                    LinkButton3.Text = "Hello " + Session["nmae"].ToString() ;
+                    LinkButton3.Text = "Hello " + Session["name"].ToString() ;
                     LinkButton6.Visible = true;
                     Response.Redirect("Admin/Dashboard.aspx");
                 }

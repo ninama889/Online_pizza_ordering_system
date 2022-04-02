@@ -26,7 +26,7 @@
         <div class="content">
             <h3>FoodVilla</h3>
             <p>Food Made with love. with best taste and quality services.</p>
-            <a href="menu.aspx" class="btn">order now</a>
+            <a href="#order" class="btn">order now</a>
         </div>
 
         <div class="image">
@@ -104,7 +104,7 @@
                         <i class="fas fa-star"></i>
                         <i class="far fa-star"></i>
                     </div>
-                    <a href="#" class="btn">order now</a>
+                    <a href="#order" class="btn">order now</a>
                 </div>
             </ItemTemplate>
         </asp:Repeater>
@@ -169,7 +169,7 @@
                             <asp:Label ID="lbl_Gallery" runat="server" Text='<%# Eval("Name") %>'
                                 Font-Bold="True" Font-Size="X-Large"></asp:Label>
                             <p class="font-weight-bold p-1">Price: RS. <%#Eval("Price") %>
-                                <a href="#" class="btn">ordern now</a>
+                                <a href="#order" class="btn">ordern now</a>
                         </div>
                     </div>
                 </ItemTemplate>
