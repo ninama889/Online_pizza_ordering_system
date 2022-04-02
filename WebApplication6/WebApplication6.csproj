@@ -330,7 +330,6 @@
     <Content Include="NewFolder1\css\jquery.dataTables.min.css" />
     <Content Include="NewFolder1\js\jquery.dataTables.min.js" />
     <Content Include="Script.js" />
-    <Content Include="Signin.aspx" />
     <Content Include="wwwroot\css\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -399,13 +398,6 @@
       <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Signin.aspx.cs">
-      <DependentUpon>Signin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Signin.aspx.designer.cs">
-      <DependentUpon>Signin.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

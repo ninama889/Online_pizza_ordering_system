@@ -1,40 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32126.317
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication6", "WebApplication6\WebApplication6.csproj", "{36A49A35-504D-4B49-848D-E67E7CB67F73}"
-	ProjectSection(ProjectDependencies) = postProject
-		{33150862-30C5-429B-ACDF-EDD9DCD9A6F1} = {33150862-30C5-429B-ACDF-EDD9DCD9A6F1}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminControl", "AdminControl\AdminControl.csproj", "{2F240BFF-B710-429F-9883-BDD366635C35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminControlHost", "AdminControlHost\AdminControlHost.csproj", "{BB9855C2-A1F3-4AA1-9EFD-D316290AD14D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginService", "LoginService\LoginService.csproj", "{54480761-D347-493C-A91C-35A1A4BB05BA}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SignUpService", "SignUpService\", "{33150862-30C5-429B-ACDF-EDD9DCD9A6F1}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_50611"
-		Debug.AspNetCompiler.PhysicalPath = "SignUpService\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50611\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_50611"
-		Release.AspNetCompiler.PhysicalPath = "SignUpService\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50611\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "50611"
-		SlnRelativePath = "SignUpService\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,14 +27,6 @@ Global
 		{BB9855C2-A1F3-4AA1-9EFD-D316290AD14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9855C2-A1F3-4AA1-9EFD-D316290AD14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9855C2-A1F3-4AA1-9EFD-D316290AD14D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54480761-D347-493C-A91C-35A1A4BB05BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54480761-D347-493C-A91C-35A1A4BB05BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54480761-D347-493C-A91C-35A1A4BB05BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54480761-D347-493C-A91C-35A1A4BB05BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33150862-30C5-429B-ACDF-EDD9DCD9A6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33150862-30C5-429B-ACDF-EDD9DCD9A6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33150862-30C5-429B-ACDF-EDD9DCD9A6F1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{33150862-30C5-429B-ACDF-EDD9DCD9A6F1}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
