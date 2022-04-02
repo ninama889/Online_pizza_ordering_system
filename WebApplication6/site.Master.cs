@@ -65,10 +65,12 @@ namespace WebApplication6
         }
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
-            Session["name"] = "";
-            Session["email"] = "";
-            Session["role"] = "";
-
+            Session["name"] = null;
+            Session["email"] = null;
+            Session["role"] = null;
+            Session["userId"] = null;
+            Session["userMobile"] = null;
+            Session["userAdress"] = null;
             LinkButton1.Visible = true;     //user login link button
             LinkButton4.Visible = true;     //sign up link button
 

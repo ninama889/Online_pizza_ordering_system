@@ -34,7 +34,7 @@
                             email <sup>*</sup>
                         </label>
                         <asp:TextBox ID="emailText" runat="server" type="text"
-                            class="form-control"
+                            CssClass="form-control"
                             name="email"
                             placeholder="email"
                             autoComplete="off"
@@ -47,7 +47,7 @@
                         </label>
                         <asp:TextBox ID="passText" runat="server"
                             type="password"
-                            class="form-control"
+                            CssClass="form-control"
                             name="password"
                             placeholder="Password"
                             required="true" />

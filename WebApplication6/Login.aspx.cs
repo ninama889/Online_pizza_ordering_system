@@ -39,7 +39,10 @@ namespace WebApplication6
                         string name = dr.GetValue(1).ToString();
                         Session["email"] = dr.GetValue(2).ToString();
                         Session["name"] = dr.GetValue(1).ToString();
-                        
+                        Session["userId"] = dr.GetValue(0).ToString();
+                        Session["userMobile"] = dr.GetValue(4).ToString();
+                        Session["userAddress"] = dr.GetValue(5).ToString();
+
                         if (name== "admin" || name=="ADMIN" || name=="Admin")
                         {
                             Session["role"] = "admin";

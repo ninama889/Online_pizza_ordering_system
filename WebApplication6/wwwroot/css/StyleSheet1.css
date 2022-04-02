@@ -413,18 +413,18 @@ header {
             border-radius: .5rem;
         }
 
-    .order .row form {
+    .order .row  {
         flex: 1 1 50rem;
         padding: 1rem;
     }
 
-        .order .row form .inputBox {
+        .order .row  .inputBox {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
 
-            .order .row form .inputBox input, .order .row form textarea {
+            .order .row  .inputBox input, .order .row  textarea {
                 padding: 1rem;
                 margin: 1rem 0;
                 font-size: 1.7rem;
@@ -435,17 +435,17 @@ header {
                 width: 49%;
             }
 
-        .order .row form textarea {
+        .order .row  textarea {
             width: 100%;
             resize: none;
             height: 15rem;
         }
 
-        .order .row form .btn {
+        .order .row  .btn {
             background: none;
         }
 
-            .order .row form .btn:hover {
+            .order .row  .btn:hover {
                 background: var(--red);
             }
 

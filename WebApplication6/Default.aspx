@@ -91,32 +91,32 @@
 
         <h1 class="heading">most <span>popular</span> foods </h1>
         <div class="box-container">
-        <asp:Repeater ID="R_Products" runat="server" DataSourceID="SqlCategory">
-            <ItemTemplate>
-                <div class="box">
-                    <%--<span class="price"></span>--%>
-                    <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("ImageUrl") %>' />        
-                    <h3><%# Eval("Name") %></h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+            <asp:Repeater ID="R_Products" runat="server" DataSourceID="SqlCategory">
+                <ItemTemplate>
+                    <div class="box">
+                        <%--<span class="price"></span>--%>
+                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("ImageUrl") %>' />
+                        <h3><%# Eval("Name") %></h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <a href="#order" class="btn">order now</a>
                     </div>
-                    <a href="#order" class="btn">order now</a>
-                </div>
-            </ItemTemplate>
-        </asp:Repeater>
+                </ItemTemplate>
+            </asp:Repeater>
             <asp:SqlDataSource ID="SqlProduct" runat="server" ConnectionString="<%$ ConnectionStrings:FoodieDBConnectionString %>" SelectCommand="SELECT DISTINCT * FROM [Products] WHERE ([IsActive] = @IsActive)">
                 <SelectParameters>
                     <asp:FormParameter DefaultValue="true" FormField="Products" Name="IsActive" Type="Boolean" />
                 </SelectParameters>
             </asp:SqlDataSource>
-             <asp:SqlDataSource ID="SqlCategory" runat="server" ConnectionString="<%$ ConnectionStrings:FoodieDBConnectionString %>" SelectCommand="SELECT * FROM [Categories] WHERE ([IsActive] = @IsActive)">
-                 <SelectParameters>
-                     <asp:FormParameter DefaultValue="true" FormField="Category" Name="IsActive" Type="Boolean" />
-                 </SelectParameters>
+            <asp:SqlDataSource ID="SqlCategory" runat="server" ConnectionString="<%$ ConnectionStrings:FoodieDBConnectionString %>" SelectCommand="SELECT * FROM [Categories] WHERE ([IsActive] = @IsActive)">
+                <SelectParameters>
+                    <asp:FormParameter DefaultValue="true" FormField="Category" Name="IsActive" Type="Boolean" />
+                </SelectParameters>
             </asp:SqlDataSource>
         </div>
 
@@ -165,16 +165,18 @@
             <asp:Repeater ID="R_Gallery" runat="server" DataSourceID="SqlProduct">
                 <ItemTemplate>
                     <div class="box">
-                            <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("ImageUrl") %>' />        <div class="content">
+                        <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("ImageUrl") %>' />
+                        <div class="content">
                             <asp:Label ID="lbl_Gallery" runat="server" Text='<%# Eval("Name") %>'
                                 Font-Bold="True" Font-Size="X-Large"></asp:Label>
-                            <p class="font-weight-bold p-1">Price: RS. <%#Eval("Price") %>
+                            <p class="font-weight-bold p-1">
+                                Price: RS. <%#Eval("Price") %>
                                 <a href="#order" class="btn">ordern now</a>
                         </div>
                     </div>
                 </ItemTemplate>
             </asp:Repeater>
-            <asp:SqlDataSource ID="SQL_Gallery" runat="server" ConnectionString="<%$ ConnectionStrings:FoodieDBConnectionString %>" 
+            <asp:SqlDataSource ID="SQL_Gallery" runat="server" ConnectionString="<%$ ConnectionStrings:FoodieDBConnectionString %>"
                 SelectCommand="SELECT * FROM [Products]"></asp:SqlDataSource>
         </div>
 
@@ -186,7 +188,7 @@
 
     <section class="review" id="review">
 
-        <h1 class="heading">our customers <span>reviews</span> </h1>
+        <h1 class="heading">About <span>US</span> </h1>
 
         <div class="box-container">
 
@@ -221,38 +223,34 @@
     <!-- review section ends -->
 
     <!-- order section starts  -->
+    
+        <section class="order" id="order">
 
-    <section class="order" id="order">
+            <h1 class="heading"><span>order</span> now </h1>
 
-        <h1 class="heading"><span>order</span> now </h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="image">
+                        <img src="images/order-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-8">
+                    <div class="inputBox">
+                        <asp:TextBox ID="txtName" placeholder="name" CssClass="form-control" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" placeholder="Email" CssClass="form-control" runat="server"></asp:TextBox>
+                    </div>
 
-        <div class="row">
-
-            <div class="image">
-                <img src="images/order-img.jpg" alt="">
+                    <div class="inputBox">
+                        <asp:TextBox CssClass="form-control" ID="txtMobile" runat="server"
+                            placeholder="Contact No" TextMode="Number"></asp:TextBox>
+                        <asp:TextBox ID="txtFoodname" placeholder="Food name" CssClass="form-control" runat="server"></asp:TextBox>
+                    </div>
+                    <asp:TextBox CssClass="form-control" ID="txtAddress" runat="server"
+                        placeholder="Full Address" TextMode="MultiLine" name="Address"></asp:TextBox>
+                    <asp:Button ID="BtnSubmit" runat="server" CssClass="btn" Text="Order now" onClick="BtnSubmit_Click"/>
+                </div>
             </div>
-
-            <form action="">
-
-                <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-
-                <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="food name">
-                </div>
-
-                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
-
-                <input type="submit" value="order now" class="btn">
-            </form>
-
-        </div>
-
-    </section>
-
+        </section>
     <!-- order section ends -->
 
 
