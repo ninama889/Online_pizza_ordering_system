@@ -202,6 +202,13 @@
     <Content Include="Admin\datatables\js\responsive.bootstrap4.min.js" />
     <Content Include="Admin\datatables\js\vfs_fonts.js" />
     <Content Include="Admin\Product.aspx" />
+    <None Include="Connected Services\ServiceReferenceSingup\Service.disco" />
+    <None Include="Connected Services\ServiceReferenceSingup\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceSingup\configuration.svcinfo" />
+    <None Include="Connected Services\ServiceReferenceSingup\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="images\123.png" />
     <Content Include="images\Detroit.jpg" />
     <Content Include="images\g-1.jpg" />
@@ -362,6 +369,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\ServiceReferenceAdmin\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServiceReferenceSingup\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -562,6 +574,16 @@
     <None Include="Connected Services\ServiceReference2\Service2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Connected Services\ServiceReferenceSingup\Service.wsdl" />
+    <None Include="Connected Services\ServiceReferenceSingup\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceSingup\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReferenceSingup\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <Content Include="site.Master" />
     <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
@@ -578,11 +600,13 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceAdmin\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceSingup\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\NewFolder1\" />
     <Folder Include="wwwroot\css\menu\" />
   </ItemGroup>
   <PropertyGroup>

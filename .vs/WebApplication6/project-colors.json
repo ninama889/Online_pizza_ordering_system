@@ -10,7 +10,32 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "54480761-d347-493c-a91c-35a1a4bb05ba": {
+      "ProjectGuid": "54480761-d347-493c-a91c-35a1a4bb05ba",
+      "DisplayName": "LoginService",
+      "ColorIndex": 1
+    },
+    "2f240bff-b710-429f-9883-bdd366635c35": {
+      "ProjectGuid": "2f240bff-b710-429f-9883-bdd366635c35",
+      "DisplayName": "AdminControl",
+      "ColorIndex": 2
+    },
+    "58278eae-61c6-4d5e-9845-e030f09190e8": {
+      "ProjectGuid": "58278eae-61c6-4d5e-9845-e030f09190e8",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    },
+    "33150862-30c5-429b-acdf-edd9dcd9a6f1": {
+      "ProjectGuid": "33150862-30c5-429b-acdf-edd9dcd9a6f1",
+      "DisplayName": "SignUpService",
+      "ColorIndex": 4
+    },
+    "bb9855c2-a1f3-4aa1-9efd-d316290ad14d": {
+      "ProjectGuid": "bb9855c2-a1f3-4aa1-9efd-d316290ad14d",
+      "DisplayName": "AdminControlHost",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 6
 }
