@@ -34,11 +34,24 @@ namespace WebApplication6
                 {
                     while (dr.Read())
                     {
+
                         Response.Write("<script>alert('Login Successfull');</script>");
+                        string name = dr.GetValue(1).ToString();
                         Session["email"] = dr.GetValue(2).ToString();
                         Session["name"] = dr.GetValue(1).ToString();
-                        Session["role"] = "user";
+                        
+                        if (name== "admin" || name=="ADMIN" || name=="Admin")
+                        {
+                            Session["role"] = "admin";
+                            Response.Redirect("admin/DashBoard.aspx");
+                        }
+                        else
+                        {
+                            Session["role"] = "user";
+                            Response.Redirect("Default.aspx");
+                        }
                     }
+
                     Response.Redirect("Default.aspx");
                 }
                 else

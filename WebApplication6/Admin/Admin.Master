@@ -104,11 +104,10 @@
 
                         <div class="navbar-logo">
                             <a class="mobile-menu" id="mobile-collapse" href="#!">
-                                <i class="ti-menu"></i>
                             </a>
-                            <a href="DashBoard.aspx">
-                                <img class="img-fluid" src="./assets/images/logo.png" alt="Theme-Logo" />
-                            </a>
+                            <a href="Default.aspx">
+                            FoodVilla 
+                              </a>
                             <a class="mobile-options">
                                 <i class="ti-more"></i>
                             </a>
@@ -129,13 +128,13 @@
                             <ul class="nav-right">
                                 <li class="user-profile header-notification">
                                     <a href="#!">
-                                        <img src="./assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                                        <span>John Doe</span>
+                                        <img src="../images/pic1.png" class="img-radius" alt="User-Profile-Image">
+                                        <span>Admin</span>
                                         <i class="ti-angle-down"></i>
                                     </a>
                                     <ul class="show-notification profile-notification">
                                         <li>
-                                            <a href="auth-normal-sign-in.html">
+                                            <a href="../Default.aspx">
                                                 <i class="ti-layout-sidebar-left"></i>Logout
                                         </a>
                                         </li>
@@ -197,7 +196,7 @@
                                 <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's List</div>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="#">
+                                        <a href="user.aspx">
                                             <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
                                             <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Users</span>
                                             <span class="pcoded-mcaret"></span>

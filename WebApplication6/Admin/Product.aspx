@@ -172,7 +172,6 @@
 
                                                                 <td><%# Eval("CreatedDate") %></td>
                                                                 <td>
-                                                                    <%# Eval("ProductId") %>
                                                                     <asp:LinkButton ID="lnkEdit" Text="Edit" runat="server" CssClass="badge badge-primary"
                                                                         CommandArgument='<%# Eval("ProductId")%>' CommandName="edit" CausesValidation="false">
                                                                         <i class="ti-pencil"></i>

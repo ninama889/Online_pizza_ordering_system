@@ -1,11 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="WebApplication6.site" %>
+
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive food website design tutorial </title>
+    <title>FoodVilla</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -13,52 +14,56 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="WWWroot/css/StyleSheet1.css">
 
-   
 
- <asp:ContentPlaceHolder ID="head" runat="server">
-</asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
-     <header>
-
-    <a href="#" class="logo"><i class="fas fa-utensils"></i>PIZZA </a>
-
-    <div id="menu-bar" class="fas fa-bars"></div>
-
-    <nav class="navbar">
+    <header>
         
-        <a href="#home">home</a>
-        <a href="login.aspx">SignUp</a>
-        <a href="#menu.aspx">menu</a>
-        <a href="#speciality">speciality</a>
-        <a href="#popular">popular</a>
-        <a href="#gallery">gallery</a>
-        <a href="#review">review</a>
-         <a href="#order">order</a>
-        
-    </nav>
+    <form id="form1" runat="server">
 
-   </header>
-    
-    
+        <nav class="navbar">
+        <a href="Default.aspx" class="logo"><i class="fas fa-utensils"></i>FoodVilla </a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+            <asp:LinkButton  ID="LinkButton5" runat="server"
+                OnClick="LinkButton5_Click">Menu</asp:LinkButton>
+            <a href="#speciality">speciality</a>
+            <a href="#popular">popular</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+        
+            <asp:LinkButton  ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Signup</asp:LinkButton>
+            <asp:LinkButton  ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Login</asp:LinkButton>
+            <asp:LinkButton  ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">Admin DashBoard</asp:LinkButton>
             
-<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-</asp:ContentPlaceHolder>
-        <section class="footer">
+            <asp:LinkButton  ID="LinkButton2" runat="server" Visible="False" OnClick="LinkButton2_Click">Logout</asp:LinkButton>
+            <asp:LinkButton  ID="LinkButton3" runat="server" Visible="False" >Hello User</asp:LinkButton>
+        </nav>
+        </form>
+    </header>
 
-    <div class="share">
-        <a href="#" class="btn">facebook</a>
-        <a href="#" class="btn">twitter</a>
-        <a href="#" class="btn">instagram</a>
-        <a href="#" class="btn">pinterest</a>
-        <a href="#" class="btn">linkedin</a>
-    </div>
 
-    <h1 class="credit"> created by <span> ruchita & hemangini </span> | all rights reserved! </h1>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="btn">facebook</a>
+            <a href="#" class="btn">twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a>
+        </div>
+
+        <h1 class="credit">created by <span>ruchita & hemangini </span>| all rights reserved! </h1>
 
     </section>
-   
 
-    
+
+
 </body>
 </html>

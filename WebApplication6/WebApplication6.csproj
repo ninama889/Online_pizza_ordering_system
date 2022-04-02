@@ -209,6 +209,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Admin\User.aspx" />
     <Content Include="images\123.png" />
     <Content Include="images\Detroit.jpg" />
     <Content Include="images\g-1.jpg" />
@@ -231,8 +232,6 @@
     <Content Include="images\p-5.jpg" />
     <Content Include="images\p-6.jpg" />
     <Content Include="images\pic1.png" />
-    <Content Include="images\pic2.png" />
-    <Content Include="images\pic3.png" />
     <Content Include="images\s-1.png" />
     <Content Include="images\s-2.png" />
     <Content Include="images\s-3.png" />
@@ -361,6 +360,13 @@
     </Compile>
     <Compile Include="Admin\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
     </Compile>
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
