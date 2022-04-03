@@ -183,12 +183,12 @@
 
                                 </ul>
 
-                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Product Delivery status</div>
+                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Order Record</div>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="#">
+                                        <a href="Order.aspx">
                                             <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Update Status</span>
+                                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Orders</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
@@ -204,7 +204,7 @@
                                     </li>
                                 </ul>
 
-                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's Feedback / Query</div>
+<%--                                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">User's Feedback / Query</div>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
                                         <a href="#">
@@ -224,7 +224,7 @@
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
-                                </ul>
+                                </ul>--%>
                             </div>
                         </nav>
 

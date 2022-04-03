@@ -201,6 +201,7 @@
     <Content Include="Admin\datatables\js\pdfmake.min.js" />
     <Content Include="Admin\datatables\js\responsive.bootstrap4.min.js" />
     <Content Include="Admin\datatables\js\vfs_fonts.js" />
+    <Content Include="Admin\Order.aspx" />
     <Content Include="Admin\Product.aspx" />
     <None Include="Connected Services\ServiceReferenceSingup\Service.disco" />
     <None Include="Connected Services\ServiceReferenceSingup\configuration91.svcinfo" />
@@ -353,6 +354,13 @@
     </Compile>
     <Compile Include="Admin\DashBoard.aspx.designer.cs">
       <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
