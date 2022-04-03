@@ -13,5 +13,17 @@ namespace WebApplication6.Admin
         {
 
         }
+
+        protected void BtnLogout_Click(object sender, EventArgs e)
+        {
+            Session["name"] = null;
+            Session["email"] = null;
+            Session["role"] = null;
+            Session["userId"] = null;
+            Session["userMobile"] = null;
+            Session["userAdress"] = null;
+
+            Response.Redirect("../Default.aspx");
+        }
     }
 }

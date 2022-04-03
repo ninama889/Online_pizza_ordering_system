@@ -135,7 +135,8 @@
                                     <ul class="show-notification profile-notification">
                                         <li>
                                             <a href="../Default.aspx">
-                                                <i class="ti-layout-sidebar-left"></i>Logout
+                                                <i class="ti-layout-sidebar-left"></i>
+                                                <asp:Button ID="BtnLogout" runat="server" Text="Logout" OnClick="BtnLogout_Click"/>
                                         </a>
                                         </li>
                                     </ul>
